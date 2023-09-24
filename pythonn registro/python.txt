@@ -1,0 +1,451 @@
+
+
+nome = str(input('qual  é o seu nome?:'))
+idade = str(input('qual é sua idade?:'))
+peso =str(input('qual é o seu peso?:'))
+print(nome, idade, peso)
+
+nome = str(input('digite seu nome:'))
+idade = int(input('digite sua idade:'))
+print('ola', nome, ' voce tem',idade, 'anos')
+---------------------------------------------------------
+norte = str(input('digite senti do vento:'))
+sul = str(input('digite o sentido do vento:'))
+leste = str(input('digite o sentido do vento:'))
+oste = str(input('digite o sentido do vento:'))
+print('ola' , norte ,'erga atras da casa' , sul , 'erga do lado do portao')
+
+#  ir no campo jogao ou soltar pipa
+
+# se o vento estiver maior de 8 km
+# se tiver menos que 8 km ir só para jogar bola
+---------------------------------------------------------------------------
+
+norte = str(input('digite senti do vento:'))
+print('erga pipa  atras da casa')
+sul = str(input('digite o sentido do vento:'))
+print('erga pipa perto do portao')
+leste = str(input('digite o sentido do vento:'))
+print('erga pipa atras da casa')
+oste = str(input('digite o sentido do vento:'))
+print('erga pipa perto atras da casa')
+
+
+
+-------------------------------------------------------------------------------
+
+vento = 800
+vento =int(input('digite velocidade de vento:'))
+if venda > 900:
+    print(vento, 'vento bom')
+else :
+    print('vento riun')
+ ----------------------------------------------------
+#  ir no campo jogao ou soltar pipa
+
+# se o vento estiver maior de 8 km
+# se tiver menos que 8 km ir só para jogar bola
+
+
+vento = 800
+vento =int(input('digite velocidade de vento:'))
+if vento > 900:
+    print(vento, 'vento bom')
+else :
+    print('vento riun')
+
+-------------------------------------------------
+import random
+print(random.random())
+print(random.uniform(6,20))
+-------------------------------------------------
+listaprodutos = ['iphone', 'ipod', 'notbook']
+listaprecos   = [1500, 500, 5500]
+for i in range(5):
+  print('se inscreve no canal')
+----------------------------------------------------
+
+#criar um programa que de informacoes de melhores condicoes para erguer raia, levando em
+#consideracao a velociade do vento, dia do mes, quantidade de xepeiros, tipo de raia, direção do vento,
+# e tipo de linha  dia de muitas raias no alto
+
+vento = 9
+vento =int(input('digite velocidade de vento:'))
+if vento >= 9:
+    print(vento, 'vento bom')
+else :
+    print('vento riun')
+mes = 14
+mes =int(input('digite dia do mes'))
+if mes < 10:
+    print( mes, 'dia de muitas raias no alto')
+else:
+    print(mes, 'sem muitas raias no alto')
+xepa  = 14
+xepa =int(input('digite dia do mes'))
+if xepa < 13:
+    print(xepa, 'dia de muitos xepeiros')
+else:
+    print(xepa, 'dia de poucos xepeiros')
+------------------------------------------------------------
+metro = int(input('informe o valor em metros:'))
+print('o valor em centimetro é' , metro * 100)
+------------------------------------------------------------
+import math
+raio = int(input('digite a medida do raio de circulo:'))
+print('a area do circulo do raio', raio , 'é', *math.py*raio)
+--------------
+altura = float(input('informe sua altura: - '))
+pesoIdeal = (72.7 * altura) - 58
+print('seu peso ideal é', pesoIdeal)
+
+-------------------------------------------------------------
+ 1_estruturaSequencial/15_salario_py.
+valorPorHora = float(input('Quanto voce ganha por hora: '))
+horasTrabalhadas = float(input('Quantas horas voce trabalhou no mes: '))
+salarioBruto = valorPorHora * horasTrabalhadas
+impostoRenda = salarioBruto * 0.11
+inss = salarioBruto * 0.08
+sindicato = salarioBruto * 0.05
+salarioLiquido = salarioBruto - impostoRenda - inss - sindicato
+
+
+print('Imposto de Renda:', impostoRenda)
+print('INSS:', inss)
+print('Sindicato:', sindicato)
+print('Salario Liquido:', salarioLiquido)
+--------------------------------------------------------------
+ 1_estruturaDecisão/15_maior_py.
+num1 = int(input('Informe um numero: '))
+num2 = int(input('Informe outro numero: '))
+
+if (num1 > num2):
+  print(num1, 'eh maior que', num2)
+ # print(num2, 'eh maior que', num1,)
+elif (num1 < num2):
+ print(num2, 'eh maior que', num1)
+ #print(num2, 'eh maior que', num1)
+else:
+ print('Os numeros sao iguais')
+ #print('Os numeros sao iguais')
+--------------------------------------------------------------
+incompleto -
+arvoreDoent = input('digite o estado do fruto')
+arvoreSaudavel =input('digite o estado do fruto')
+
+if arvoreDoent == true:
+   print('seus frutos sao podres')
+--------------------------------------------------------------------
+alguemTebater = str(input('digite se aguem te bateu'))
+
+
+print(alguemTebater, 'ore por ele, se alguem bater no teu rosto vire a outra face')
+if alguemTebater == false:
+    print("...")
+----------------------------------------------------------------
+
+
+alguemSeaproveitou = str(input('digite se alguem se apraveitou de voce - '))
+print("aproveite a ocasiao para praticar a vida de servo. nada de pagar com a mesma moeda")
+------------------------------------------------------------------
+
+
+alguemSeaproveitou = str(input('digite se alguem se apraveitou de voce - '))
+print("aproveite a ocasiao para praticar a vida de servo. nada de pagar com a mesma moeda. ta?")
+#se tudo que voces fazem é amar apenas quem é amavel, que recompensa esperam
+#receber?
+
+amor1 = True
+amor2 = False
+amor2 = str(input('digite se alguem de feriu fisicamente ou com palavras - '))
+print("amem seus inimigos")
+if amor2 == True:
+    print('se tudo que voces fazem é amar apenas quem é amavel, que recompensa esperam receber?')
+else:
+    print('Jesus disse que teriamos afliçoes, porem estaria ao nosso lado sempre')
+----------------------------------------------------------------------
+ 1_estruturaDecisão/02_positivo_negativo_py.
+
+
+num = int(input('digite numero'))
+
+if (num > 10):
+    print(num , ' é posivivo')
+elif (num < 10):
+
+ print('é negativo' , num)
+
+if (num == 10):
+	print('O numero eh igual a 10')
+
+elif  (num > 20):
+  print('numro não pode ser valido')
+--------------------------------------------------------------------
+ 1_estruturaDecisão/04_vogais_consoantes_py.
+
+letra = input('Informe uma letra: ')
+
+if ('AEIOU'.find(letra.upper()) >= 0):
+	print ('VOGAL')
+
+else:
+	print ('CONSOANTE')
+--------------------------------------------------------------------
+ 1_estruturaDecisão/05_sexo_py.
+
+
+sexo = input('Informe F para FEMININO ou M para MASCULINO: ou B binario: ')
+
+if (sexo.upper() == 'M'):
+	print ('MASCULINO')
+
+elif (sexo.upper() == 'F'):
+	print ('FEMININO')
+
+elif (sexo.upper() == 'B'):
+	print (' esse é de ideal de esquerda "binario"')
+else:
+	print ('Sexo Invalido')
+--------------------------------------------------------------------
+1_estruturaDecisão/05__nota_aluno__py.
+nota1 = float(input('Informe a primeira nota: '))
+nota2 = float(input('Informe a segunda nota: '))
+media = (nota1 + nota2) / 2.0
+
+print ('A media do aluno eh:', media)
+if (media == 10):
+	print('Aprovado com Distincao')
+
+elif (media >= 7):
+	print('Aprovado')
+
+elif (media<= 7):
+	print('Reprovado')
+-------------------------------------------------------------------
+
+1_estruturaDecisão/06_ osTresNumeros_maior_py.
+
+num1 = int(input('informe  o primeiro  numero : '))
+num2 = int(input('informe o segundo numero :'))
+num3 = int(input('informe o terceiro numero :'))
+
+if (num1 == num2)  and (num1 == num3):
+    print('os numeros são iguais')
+elif (num1 > num2) and (num1 > num3):
+
+    print('o numero 2 é maior')
+elif (num2 > num1) and (num2 > num3):
+
+    print('numero 2 é o maior numero')
+elif (num3 > num1) and (num3 > num2):
+    print(' o  terceiro numero é o maior entre eles')
+------------------------------------------------------------------
+
+
+#---
+ # ⁴ parábola:
+ # ⁵ Um semeador saiu a semear a sua semente e, quando semeava, caiu alguma junto do caminho, e foi pisada, e as aves do céu a comeram;
+ # ⁶ E outra caiu sobre pedra e, nascida, secou-se, pois que não tinha umidade;
+ # ⁷ E outra caiu entre espinhos e crescendo com ela os espinhos, a sufocaram;
+ # ⁸ E outra caiu em boa terra, e, nascida, produziu fruto, a cento por um.
+
+#  Lucas 8:4-8
+
+
+sementes = input('informe E se suas sementes cairam entre os espinhos,informe  P  se os pombos comeram suas sementes, ou informe B se suas sementes cairam em Boa terra: ')
+if (sementes.upper() == 'E'):
+	print ('suas sementes cairam em meio aos espinhos e nao DARA FRUTOS')
+elif  (sementes.upper() == 'B'):
+	print ('SUAS SEMENTES CAIRAM EM TERRA BOA E DARA FRUTOS')
+
+elif  (sementes.upper() == 'P'):
+    print('os pombos comeram suas sementes')
+
+-----------------------------------------------------------------------
+
+
+primeiro_valor = int(input(' digite'))
+segundo_valor = int(input('digite'))
+if primeiro_valor > segundo_valor:
+    print('o numero', (primeiro_valor), 'é maior que o numero' , (segundo_valor))
+elif segundo_valor > primeiro_valor:
+    print(' o numero' (segundo_valor)  'é maior que o numero' ,  (primeiro_valor))
+else:
+    print(' o numero' (primeiro_valor) 'é igual ao numero' (segundo_valor))
+
+-----------------------------------------------------
+
+variavel1 = True
+variavel2 = True
+
+comparacao = variavel1 and variavel2
+print(comparacao)
+--------------------------------------------------------
+
+# operadores logicos
+# and (e) - esse operador é exigente - para ser verdadeiro os dois tem que ser verdadeiro.
+
+variavel1 = 4
+variavel2 = 2
+variavel3 = 6
+variavel4 = 8
+
+
+comparacao = (variavel1 > variavel2) and (variavel3 > variavel4)
+
+print(comparacao)
+#resposta - False
+
+-------------------------------------------------------------
+# operadores logicos
+# and (or) - esse operador  não é exigente - para ser verdadeiro basta que uma seja  verdadeiro.
+# V OR V = V
+variavel1 = 4
+variavel2 = 2
+variavel3 = 6
+variavel4 = 8
+
+
+comparacao = (variavel1 > variavel2) or (variavel3 > variavel4)
+
+print(comparacao)
+
+comparacao = (variavel1 > variavel2)  or (variavel3 > variavel4)
+print(comparacao)
+
+comparacao = (variavel2 > variavel1)  or (variavel4 > variavel3)
+print(comparacao)
+
+comparacao = (variavel2 > variavel1)  or (variavel3 > variavel4)
+print(comparacao)
+
+#resposta - true , true, true, false
+------------------------------------------------------------------------------
+#desenvolva um algoritmo que peça para o usuario, digitar a letra e para entrar no sistema e uma senha.
+senha valida : 12345 . mostre seja bem vindo ao sistema. Ou, erro acesso ao sistema invalido.
+------------------------------------------------------------------------'
+
+#exercicio sala de aula
+#desenvolva um algoritmo que peça para o usuario, digitar a letra 'E' para entrar no sistema e uma senha.
+
+entrada_usuario = input('digite a letra E para entrar no sistema')
+senha_usuario = input('digite a senha do usuario')
+senha_valida = 12345
+
+if (entrada_usuario.upper() == entrada_usuario and senha_usuario  == senha_valida ):
+    print('seja bem vindo ao sistema')
+elif 
+
+-------------------------------------------------------------
+comando not
+
+-------------------------------------------------
+ # no python as strings são intervalos
+
+nome = ('valmir')
+print(nome[2])
+
+resposta = L
+#  NA programação a contagem sempre começa pelo zero - ex: 012345 - valmir é qual letra?
+------------------------------------------------------
+#saber quantos caracteres tem a frase em print - 
+
+frase = ('aprendendo a programar em python')
+print(len(frase))
+
+
+#resposta: 32
+#o python conta tambem os espaços da frase
+
+------------------------------------------------------
+exercicio sala de aula
+
+
+usuario_nome = input('digite seu nome'))
+usuario_idade = (input('digite sua idade'))
+if usuario_nome and usuario_idade:
+   print('seu nome é', usuario_nome)
+print('seu invertido é' usuario_nome)
+print('seu nome tem' x letras)
+print('a primeira letra do seu nome é')
+print('a ultima letra do seu nome é ')
+
+------------------------------------------------
+# analizar menor preço dos produtos
+
+preco1 = int(input('Informe o primeiro preco: '))
+preco2 = int(input('Informe o segundo preco: '))
+preco3 = int(input('Informe o terceiro preco: '))
+
+if (preco1 == preco2) and (preco1 == preco3):
+    print('pode comprar qualquer um que o preço sao iguais')
+
+elif   (preco1 < preco2) and (preco1 < preco3):
+     print('compre o primeiro preço , pois, esta mais barato')
+elif (preco2 < preco3):
+     print('compre pelo segundo preço')
+else:
+    print('compre pelo terceiro preço')
+
+------------------------------------------------------
+# estruturaDeDecisao/09_ordem_decrescente_py.
+
+num1 = int(input('Informe um numero: '))
+num2 = int(input('Informe outro numero: '))
+num3 = int(input('Informe mais um numero: '))
+
+if (num1 >= num2) and (num1 >= num3):
+    print(num1)
+if (num2 >= num3):
+    print(num2)
+    print(num3)
+else:
+    print(num3)
+    print(num2)
+    print(num1)
+if   (num3 >= num2):
+    print(num3)
+    print(num2)
+    print(num1)
+elif  (num2 >= num3):
+	print(num2)
+if (num1 >= num3):
+		print(num1)
+		print(num3)
+else:
+ print(num3)
+ print(num2)
+ print(num1)
+
+---------------------------------------------------------
+# 02_estruturaDeDecisao/10_turno_estudo_py.
+
+
+
+print('informe periodo que voce estuda')
+print(' [M]atutino')
+print('[V]espertino')
+print('[N]oturno')
+turno = input('opcao escolhida:').upper()
+
+if (turno == 'M'):
+    print('bom dia')
+elif (turno == 'V'):
+    print('boa tarde')
+elif (turno == 'N'):
+    print('boa noite')
+
+------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
